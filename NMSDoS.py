@@ -32,7 +32,7 @@ def send_requests(target, request_count):
 
 def start_attack():
     try:
-        target = input("Hedef IP: ")
+        target = input("Hedef URL: ")
         request_count = int(input("Gönderilecek İstek Sayısı: "))
         attack_power = int(input("Saldırı Gücü (1-2-3): "))
 
